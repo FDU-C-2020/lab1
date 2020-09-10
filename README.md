@@ -52,7 +52,7 @@
 
 1、加入课程后点击该课程可以进入课程内容页面：
 
-![](.\assets\xuexitong-step-5.png)
+![](.\imgs\xuexitong-step-5.png)
 
 我们可以看到学习通中可以发布主题讨论，可以进行课堂选人等。
 
