@@ -26,15 +26,15 @@
 
 1、登录选项处选择其他登录方式：
 
-![](.\imgs\xuexitong-step-0.png)
+![](./imgs/xuexitong-step-0.png)
 
 2、在机构栏输入并选中复旦大学：
 
-![](.\imgs\xuexitong-step-1.png)
+![](./imgs/xuexitong-step-1.png)
 
 3、选中复旦大学后会弹出复旦大学统一身份认证页面，输入用户名和密码登录：
 
-![](.\imgs\xuexitong-step-2.png)
+![](./imgs/xuexitong-step-2.png)
 
 这样就通过使用复旦的认证平台登录了学习通（为了方便下一次登录，可以完善账户信息，绑定手机号以方便通过手机号登录）。
 
@@ -42,27 +42,27 @@
 
 1、在APP首页的右上角存在“邀请码”，点击邀请码后通过输入邀请码方式加入课程：
 
-![](.\imgs\xuexitong-step-3.png)
+![](./imgs/xuexitong-step-3.png)
 
 2、这里输入程序设计课程的邀请码-`83341795`，以加入课程：
 
-![](.\imgs\xuexitong-step-4.png)
+![](./imgs/xuexitong-step-4.png)
 
 ### 其他功能
 
 1、加入课程后点击该课程可以进入课程内容页面：
 
-![](.\imgs\xuexitong-step-5.png)
+![](./imgs/xuexitong-step-5.png)
 
 我们可以看到学习通中可以发布主题讨论，可以进行课堂选人等。
 
 2、点击“作业/考试”可以查看作业完成情况：
 
-![](.\imgs\xuexitong-step-6.png)
+![](./imgs/xuexitong-step-6.png)
 
 3、点击“章节”可以查看课程章节资源（主要是视频教学资源）：
 
-![](.\imgs\xuexitong-step-7.png)
+![](./imgs/xuexitong-step-7.png)
 
 ## 运行本学期的第一个 C 程序 （for Windows）
 
@@ -85,17 +85,17 @@
 
 首先打开安装程序，按照提示，以默认选项进行安装即可。
 
-![安装首页](./img/1.png)
+![安装首页](./imgs/1.png)
 
 安装路径默认在 C 盘，你可以自己考虑是否放在 C 盘内
 
-![路径设置](./img/2.png)
+![路径设置](./imgs/2.png)
 
 > 你可以自己设置路径，但是！**请务必记住该路径**，接下来需要使用到！
 
 包管理器安装完成后将弹出这个界面：
 
-![包管理器界面](./img/3.png)
+![包管理器界面](./imgs/3.png)
 
 找到 `mingw32-gcc-g++-bin`，点击选择 `Mark for Installation`。
 
@@ -109,11 +109,11 @@
 
 打开 控制面板 -> 系统和安全 -> 系统 -> 高级系统设置 -> 环境变量。
 
-![环境变量](./img/4.png)
+![环境变量](./imgs/4.png)
 
 在系统环境变量列表中找到 `Path` 选项，点击编辑
 
-![Path](./img/5.png)
+![Path](./imgs/5.png)
 
 点击新建，找到 MinGW 安装路径下的 bin 文件位置，添加项
 
@@ -123,7 +123,7 @@
 
 现在，按下 `Win 键 + R`，输入 `cmd` 并回车来打开（如果你已经打开，请重启）你的 CMD 命令行。
 
-![cmd](./img/6.png)
+![cmd](./imgs/6.png)
 
 输入：
 
@@ -132,13 +132,13 @@
 
 测试 gcc 的版本，如果得到的结果与下面的结果类似，不是没有这种命令或文件的提示之类的话，就说明安装成功。
 
-![cmd](./img/7.png)
+![cmd](./imgs/7.png)
 
 ### Step 4: 运行 `helloworld.c`
 
 在 `helloworld.c` 文件所在文件夹按住 Shift 鼠标右键，在菜单栏里点击 `在此处打开 Powershell 窗口` 项，打开 Powershell
 
-![打开powershell](./img/8.png)
+![打开powershell](./imgs/8.png)
 
 输入：
 
