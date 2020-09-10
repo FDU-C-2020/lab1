@@ -26,15 +26,15 @@
 
 1、登录选项处选择其他登录方式：
 
-![](./imgs/xuexitong-step-0.png)
+<img src="https://github.com/FDU-C-2020/lab1/blob/master/imgs/xuexitong-step-0.png" width="700"/>
 
 2、在机构栏输入并选中复旦大学：
 
-![](./imgs/xuexitong-step-1.png)
+<img src="https://github.com/FDU-C-2020/lab1/blob/master/imgs/xuexitong-step-1.png" width="700"/>
 
 3、选中复旦大学后会弹出复旦大学统一身份认证页面，输入用户名和密码登录：
 
-![](./imgs/xuexitong-step-2.png)
+<img src="https://github.com/FDU-C-2020/lab1/blob/master/imgs/xuexitong-step-2.png" width="700"/>
 
 这样就通过使用复旦的认证平台登录了学习通（为了方便下一次登录，可以完善账户信息，绑定手机号以方便通过手机号登录）。
 
@@ -42,27 +42,27 @@
 
 1、在APP首页的右上角存在“邀请码”，点击邀请码后通过输入邀请码方式加入课程：
 
-![](./imgs/xuexitong-step-3.png)
+<img src="https://github.com/FDU-C-2020/lab1/blob/master/imgs/xuexitong-step-3.png" width="700"/>
 
 2、这里输入程序设计课程的邀请码-`83341795`，以加入课程：
 
-![](./imgs/xuexitong-step-4.png)
+<img src="https://github.com/FDU-C-2020/lab1/blob/master/imgs/xuexitong-step-4.png" width="700"/>
 
 ### 其他功能
 
 1、加入课程后点击该课程可以进入课程内容页面：
 
-![](./imgs/xuexitong-step-5.png)
+<img src="https://github.com/FDU-C-2020/lab1/blob/master/imgs/xuexitong-step-5.png" width="700"/>
 
 我们可以看到学习通中可以发布主题讨论，可以进行课堂选人等。
 
 2、点击“作业/考试”可以查看作业完成情况：
 
-![](./imgs/xuexitong-step-6.png)
+<img src="https://github.com/FDU-C-2020/lab1/blob/master/imgs/xuexitong-step-6.png" width="700"/>
 
 3、点击“章节”可以查看课程章节资源（主要是视频教学资源）：
 
-![](./imgs/xuexitong-step-7.png)
+<img src="https://github.com/FDU-C-2020/lab1/blob/master/imgs/xuexitong-step-7.png" width="700"/>
 
 ## 运行本学期的第一个 C 程序 （for Windows）
 
