@@ -64,7 +64,7 @@
 
 <img src="https://github.com/FDU-C-2020/lab1/blob/master/imgs/xuexitong-step-7.png" width="300"/>
 
-## 运行本学期的第一个 C 程序 （for Windows）
+## 2.运行本学期的第一个 C 程序 （for Windows，Mac系统用户可跳过）
 
 接下来我们尝试运行第一个 C 程序—— `helloworld.c`。
 如果你从来没有使用命令行运行过 C 程序，那很好，这就是我们所期望的。
@@ -154,7 +154,7 @@
 
 如果你成功输出 `hello world`，相信你已经学会了如何使用命令行运行 C 程序了，恭喜你！
 
-## 运行本学期的第一个 C 程序（for Mac）
+## 3.运行本学期的第一个 C 程序（for Mac，Windows系统用户可跳过）
 
 ### Step 1: 打开终端
 
