@@ -16,7 +16,7 @@
 
 **截止时间**：
 
-## 常用工具与学习平台
+## 1.常用工具与学习平台
 
 ### 校园WIFI
 推荐选择iFudanNG.1x或iFudan.1x。前者支持所有终端和操作系统，第一次配置成功后，只要在信号覆盖范围内，系统会自动连接。由于仅支持 5GHz 频段，来自外界的干扰很小，无线连接会更加稳定。
@@ -49,7 +49,7 @@ WIFI连接用户名为学号，密码与复旦UIS统一身份认证系统使用�
 
 2、Stack Overflow is an open community for anyone that codes. We help you get answers to your toughest coding questions, share knowledge with your coworkers in private, and find your next dream job.
 
-## 1.使用学习通
+## 2.使用学习通
 
 超星学习通是本课程的重要教学辅助工具。它可以用作课程学习、课堂互动、作业发布与收取、资源共享等。下面将对学习通APP进行简单的介绍。
 
@@ -95,7 +95,7 @@ WIFI连接用户名为学号，密码与复旦UIS统一身份认证系统使用�
 
 <img src="https://github.com/FDU-C-2020/lab1/blob/master/imgs/xuexitong-step-7.png" width="300"/>
 
-## 2.运行本学期的第一个 C 程序 （for Windows，Mac系统用户可跳过）
+## 3.运行本学期的第一个 C 程序 （for Windows，Mac系统用户可跳过）
 
 接下来我们尝试运行第一个 C 程序—— `helloworld.c`。
 如果你从来没有使用命令行运行过 C 程序，那很好，这就是我们所期望的。
@@ -185,7 +185,7 @@ WIFI连接用户名为学号，密码与复旦UIS统一身份认证系统使用�
 
 如果你成功输出 `hello world`，相信你已经学会了如何使用命令行运行 C 程序了，恭喜你！
 
-## 3.运行本学期的第一个 C 程序（for Mac，Windows系统用户可跳过）
+## 4.运行本学期的第一个 C 程序（for Mac，Windows系统用户可跳过）
 
 ### Step 1: 打开终端
 
