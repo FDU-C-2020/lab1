@@ -54,7 +54,7 @@
 
 <img src="https://github.com/FDU-C-2020/lab1/blob/master/imgs/xuexitong-step-5.png" width="300"/>
 
-我们可以看到学习通中可以发布主题讨论，可以进行课堂选人等。
+学习通中会在此处通知主题讨论的发布，课堂选人等。
 
 2、点击“作业/考试”可以查看作业完成情况：
 
