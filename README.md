@@ -64,6 +64,97 @@
 
 ![](.\imgs\xuexitong-step-7.png)
 
+## 运行本学期的第一个 C 程序 （for Windows）
+
+接下来我们尝试运行第一个 C 程序—— `helloworld.c`。
+如果你从来没有使用命令行运行过 C 程序，那很好，这就是我们所期望的。
+在这一部分，请丢掉你的 IDE，跟着这篇文章重新学习。
+
+### Step 1: 下载 MinGW 包管理器
+
+第一步，我们需要下载 MinGW，它是管理各版本 gcc（C 语言[编译器](https://baike.baidu.com/item/%E7%BC%96%E8%AF%91%E5%99%A8)）的工具。通过它，我们能很快的安装 gcc，从而快速搭建 C 语言开发环境。
+
+[点击这里下载 MinGW](https://osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe)
+
+### Step 2: 安装 MinGW && 下载 gcc
+
+有人可能发现下载的安装软件相当地小，只有几十K。
+这是因为我们下载的只是一个包管理器，包管理器安装后才能继续安装编译器等组件。
+
+注意，整个安装过程都是在线的，因此请不要断开网络。
+
+首先打开安装程序，按照提示，以默认选项进行安装即可。
+
+![安装首页](./img/1.png)
+
+安装路径默认在 C 盘，你可以自己考虑是否放在 C 盘内
+
+![路径设置](./img/2.png)
+
+> 你可以自己设置路径，但是！**请务必记住该路径**，接下来需要使用到！
+
+包管理器安装完成后将弹出这个界面：
+
+![包管理器界面](./img/3.png)
+
+找到 `mingw32-gcc-g++-bin`，点击选择 `Mark for Installation`。
+
+然后点击左上角的 `Installation` 菜单中的 `Apply changes` 选项，然后管理器将开始在线安装或更新被选中的组件。
+
+下面耐心等待程序的安装。
+
+安装完成后关闭包管理器，如果由于某种原因安装未能成功，在退出程序前程序将给予提示，选择 `review changes` 选项重新安装即可。
+
+### Step 3: 配置环境变量
+
+打开 控制面板 -> 系统和安全 -> 系统 -> 高级系统设置 -> 环境变量。
+
+![环境变量](./img/4.png)
+
+在系统环境变量列表中找到 `Path` 选项，点击编辑
+
+![Path](./img/5.png)
+
+点击新建，找到 MinGW 安装路径下的 bin 文件位置，添加项
+
+我这里的路径是 `C:\MinGW\bin`，如果你将 MinGW 安装在自己设置的路径，请使用**你自己的 MinGW 安装路径下的 bin 文件位置**
+
+### Step 4: 检验
+
+现在，按下 `Win 键 + R`，输入 `cmd` 并回车来打开（如果你已经打开，请重启）你的 CMD 命令行。
+
+![cmd](./img/6.png)
+
+输入：
+
+    $ gcc -v
+
+
+测试 gcc 的版本，如果得到的结果与下面的结果类似，不是没有这种命令或文件的提示之类的话，就说明安装成功。
+
+![cmd](./img/7.png)
+
+### Step 4: 运行 `helloworld.c`
+
+在 `helloworld.c` 文件所在文件夹按住 Shift 鼠标右键，在菜单栏里点击 `在此处打开 Powershell 窗口` 项，打开 Powershell
+
+![打开powershell](./img/8.png)
+
+输入：
+
+    $ gcc .\helloworld.c -o helloworld.exe
+
+在同文件夹下生成 `helloworld.exe` 文件
+
+再输入：
+
+    $ helloworld.exe
+
+命令行是否输出 `hello world` ？
+
+如果你成功输出 `hello world`，相信你已经学会了如何使用命令行运行 C 程序了，恭喜你！
+
+
 
 
 
