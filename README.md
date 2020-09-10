@@ -154,7 +154,50 @@
 
 如果你成功输出 `hello world`，相信你已经学会了如何使用命令行运行 C 程序了，恭喜你！
 
+## 运行本学期的第一个 C 程序（for Mac）
 
+### Step 1: 打开终端
+
+`command + 空格` 打开聚焦搜索🔍，在搜索框中输入 `terminal`，点击下方 “终端” 或直接回车，即可打开终端
+
+![ternimal app](./imgs/mac-1.png)
+
+### Step 2: 进入所在文件夹
+
+打开终端后，我们需要进入 helloworld.c 文件所在的文件夹。
+可以在终端内输入 `cd` + 空格，然后使用访达打开文件夹，在将文件夹拖入终端，就能直接获得文件夹所在路径。
+
+比如：我现在要通过终端进入 `lab1` 所在的文件夹。
+
+![open file](./imgs/mac-2.png)
+
+然后在终端内回车，就进入了 `lab1` 的文件夹。
+
+> 你觉得以上操作太繁琐？试试[这个](https://jingyan.baidu.com/article/ce436649281a293773afd3d8.html)
+
+### Step 3: 检查是否安装 `gcc`
+
+在终端输入：
+
+    $ gcc -v
+
+若终端返回以下内容，则说明你已经安装好 `gcc` 了，若没有返回类似内容，你需要在 `App Store` 内下载 `Xcode` 软件，再重新打开终端尝试。
+
+![gcc version](./imgs/mac-3.png)
+
+### Step 4: 编译并运行 `helloworld.c`
+
+在 `helloworld.c` 所在文件夹打开终端，输入：
+
+    $ gcc ./helloworld.c -o helloworld.out
+
+会在同文件夹下生成 `helloworld.out` 文件
+
+再输入：
+
+    $ helloworld.out
+
+看看你是否输出 `hello world` ？
 
 
 
